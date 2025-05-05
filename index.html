@@ -277,6 +277,78 @@
         .card-title:hover{
           color: rebeccapurple;
         }
+
+        /* footer  */
+        .footer{
+          background-image: url(obi.jpg);
+          background-size: cover;
+          opacity: 0.8;
+          margin-top: 100px;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          color: #fff;
+      padding: 4rem 1rem 2rem;
+      position: relative;
+    }
+     
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+    }
+
+    .footer a:hover {
+      color: #ff4d4d;
+    }
+
+    .footer-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .social-icons i {
+      font-size: 1.2rem;
+      margin-right: 10px;
+      color: #fff;
+    }
+
+    .form-control {
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      border-radius: 50px;
+    }
+
+    .form-control::placeholder {
+      color: #ccc;
+    }
+    .form-control:hover{
+      background-color: #fff;
+    }
+
+    .btn-subscribe {
+      background: linear-gradient(to right, #f94d6a, #ff6464);
+      color: #fff;
+      border: none;
+      font-weight: 600;
+      width: 100%;
+      border-radius: 50px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      font-size: 0.875rem;
+      color: #ccc;
+    }
+
+    .footer-bottom a {
+      color: #ff4da6;
+    }
+    .footer .middle{
+      text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -493,6 +565,67 @@
     </div>
   </div>
 </section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <!-- Logo & About -->
+      <div class="col-md-4 mb-4">
+        <div class="footer-logo mb-2">
+          <img src="smfest-removebg-preview.png" alt="" style="width: 100px; height: 60px;">
+        </div>
+        <p class="small">
+          SMFest is a global, annual conference that brings the best and brightest minds in the world together.
+        </p>
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-tiktok"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Other Pages -->
+      <div class="middle col-md-4 mb-4">
+        <h5>Other Pages</h5>
+        <ul class="list-unstyled small">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Ticket</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Founders' Mixer</a></li>
+          <li><a href="#">Academy</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-4">
+        <h5>Newsletter</h5>
+        <p class="small">Don’t miss a thing! Sign up to receive updates on our Events.</p>
+        <form>
+          <input type="email" class="form-control mb-2" placeholder="Enter Email Address" />
+          <input type="text" class="form-control mb-2" placeholder="First Name" />
+          <input type="text" class="form-control mb-3" placeholder="Last Name" />
+          <button class="btn btn-subscribe">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom Text -->
+    <div class="footer-bottom mt-4">
+      © 2024 <a href="#">Silicon Africa</a>. All rights reserved.
+    </div>
+  </div>
+
+</footer>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
